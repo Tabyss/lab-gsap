@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.field1{
+    display: block;
+    height: 100vh;
+    background-color: beige;
+}
+.field2{
+    display: flex;
+    width: 100vw;
+    height: 300vh;
+}
+.column1{
+    width: 50%;
+}
+.column2{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.space1{
+    display: flex;
+    align-items: center;
+    background-color: burlywood;
+    height: 100vh;
+}
+.space2{
+    display: flex;
+    align-items: center;
+    background-color: darkorange;
+    height: 100vh;
+}
+
+.field3{
+    height: 100vh;
+    background-color:pink;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}

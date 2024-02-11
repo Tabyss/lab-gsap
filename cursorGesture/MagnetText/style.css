@@ -1,0 +1,37 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Bebas Neue';
+}
+
+.button{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+  }
+  
+  .magnet{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: #001858;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  h1{
+    text-align: center;
+    color: #fef6e4;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.2;
+  }

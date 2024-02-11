@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.field1{
+    display: block;
+    height: 350vh;
+    background-color: beige;
+    padding: 50px 100px;
+}
+.field2{
+    display: block;
+    height: 100vh;
+    background-color: cornflowerblue;
+    padding: 100px;
+}
+.field3{
+    display: block;
+    height: 100vh;
+    background-color: royalblue;
+    padding: 100px;
+}
+.field4{
+    display: block;
+    height: 100vh;
+    background-color: wheat;
+    padding: 100px;
+}
+
+.card{
+    border-radius: 20px;
+    padding: 10px;
+    height: 500px;
+}
+
+.a{
+    background-color: aquamarine;
+    z-index: 1;
+}
+.b{
+    background-color: salmon;
+    z-index: 2;
+}
+.c{
+    background-color: forestgreen;
+    z-index: 3;
+}
